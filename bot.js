@@ -19,7 +19,7 @@ client.on("ready", () => {
 });
 
 client.on('ready', () => {
-  client.user.setActivity('Nepupon.osu! | y!help', {type: 1})
+  client.user.setActivity('Type -help', {type: 1})
 })
 
 client.on('guildDelete', guild => {
