@@ -1,7 +1,7 @@
 {
-  "name": "WiimTEST",
+  "name": "yuna",
   "version": "1.8.0",
-  "description": "(WiimTEST)",
+  "description": "(Project Yuna)",
   "main": "node bot.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
