@@ -1,28 +1,31 @@
 {
-  "name": "yuna",
-  "version": "1.8.0",
-  "description": "(Project Yuna)",
-  "main": "node bot.js",
+  "name": "discord.js-heroku",
+  "version": "1.0.0",
+  "description": "An in-depth guide on deploying your Discord.js bot on Heroku",
+  "main": "index.js",
+  "engines": {
+    "node": "8.x",
+    "npm": "*"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node bot.js"
+    "start": "node index.js"
   },
-  "engines": {
-    "node": "8.4.0"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/synicalsyntax/discord.js-heroku.git"
   },
-  "author": "Senpai Kun",
-  "license": "ISC",
+  "keywords": [
+    "heroku",
+    "discord.js"
+  ],
+  "author": "synicalsyntax",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/JinGamerZ/waamtest/issues"
+    "url": "https://github.com/synicalsyntax/discord.js-heroku/issues"
   },
-  "homepage": "https://github.com/JinGamerZ/wammtest",
+  "homepage": "https://github.com/synicalsyntax/discord.js-heroku#readme",
   "dependencies": {
-    "isgd": "^1.1.3",
-    "discord.js": "^11.3.2",
-    "simple-youtube-api": "^5.0.1",
-    "ytdl-core": "^0.20.2",
-    "opusscript": "^0.0.6",
-    "request": "2.83.0",
-    "ffmpeg": "^0.0.4"
+    "discord.js": "^11.3.0"
   }
 }
